@@ -1,0 +1,63 @@
+{
+  "expo": {
+    "name": "xxxx",
+    "slug": "xxx",
+    "scheme": "xxx",
+    "version": "1.0.4",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "googleServicesFile": "./GoogleService-Info.plist"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "xxxx"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "xxxx",
+          "authDomain": "xxxx",
+          "projectId": "xxxx",
+          "storageBucket": "xxxx",
+          "messagingSenderId": "xxxx",
+          "appId": "xxxx",
+          "measurementId": "xxxx"
+        }
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "xxx",
+          "cameraPermission": "xxx"
+        }
+      ]
+    ]
+  }
+}
